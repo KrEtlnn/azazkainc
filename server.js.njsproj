@@ -196,8 +196,6 @@
     <Folder Include="public\" />
     <Folder Include="public\CSS\" />
     <Folder Include="public\JS\" />
-    <Folder Include="views\" />
-    <Folder Include="views\pages\" />
     <Folder Include="public\pages\" />
   </ItemGroup>
   <ItemGroup>
@@ -414,7 +412,6 @@
     <Content Include="package.json" />
     <Content Include="Procfile" />
     <Content Include="public\CSS\styles.css" />
-    <Content Include="views\pages\index.html" />
     <Content Include="public\pages\index.html" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
