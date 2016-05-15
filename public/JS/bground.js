@@ -1,4 +1,5 @@
 ﻿var i = 0;
+changeBground();
 function changeBground(){
 	switch(i){
         case 0: document.getElementById('bground').style.background = "url(/pics/bground/art1.jpg) no-repeat";

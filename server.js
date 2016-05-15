@@ -1,6 +1,5 @@
 ﻿var express = require('express');
 var favicon = require('serve-favicon');
-var router = require('./router.js');
 var app = express();
 
 var config = {
@@ -12,6 +11,12 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
     res.sendfile('public/pages/index.html');
+});
+app.get('/info', function (req, res){
+    res.sendfile('public/pages/info/index.html');
+});
+app.get('/info/kcali.jpg', function (req, res) {
+    res.sendfile('public/pages/info/kcali.jpg');
 });
 
 app.listen(config.port);
