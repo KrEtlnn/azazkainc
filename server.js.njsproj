@@ -197,6 +197,9 @@
     <Folder Include="public\CSS\" />
     <Folder Include="public\JS\" />
     <Folder Include="public\pages\" />
+    <Folder Include="public\pages\info\" />
+    <Folder Include="public\pics\" />
+    <Folder Include="public\pics\bground\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -413,6 +416,11 @@
     <Content Include="Procfile" />
     <Content Include="public\CSS\styles.css" />
     <Content Include="public\pages\index.html" />
+    <Content Include="public\pages\info\index.html" />
+    <Content Include="public\pages\info\kcali.jpg" />
+    <Content Include="public\pics\bground\art1.jpg" />
+    <Content Include="public\pics\bground\art2.jpg" />
+    <Content Include="public\pics\bground\art3.jpg" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
