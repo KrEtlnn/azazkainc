@@ -1,4 +1,4 @@
-﻿#bground{
+﻿.bground{
     position: absolute;
     left:0;
     top:0;
@@ -11,22 +11,24 @@
     background-color: #ba9159;
 }
 
-#header {
+.header {
     text-align: center;
     background: url(/pics/logo.png);
+    background-position-x:center;
     width: 600px;
     height:36px;
-    margin-left: 30%;
     z-index:3;
     text-decoration: none;
+    opacity:0.7;
+    margin: auto;
 }
 
-#header-text{
+.header-text{
     text-decoration: none;
     color: #b60000;
 }
 
-#menu{
+.menu{
     position:relative;
     margin-left:10px;
     list-style: none;
@@ -37,7 +39,7 @@
     width:170px;
 }
 
-#menu-item{
+.menu-item{
     text-align:center;
     padding-top:5px;
     padding-left:7px;
@@ -46,7 +48,7 @@
     border-left: 4px solid red;
 }
 
-#menu-item:hover{
+.menu-item:hover{
     background-color:#6db7ff;
     cursor:pointer;
     border: 1px solid blue;
@@ -57,7 +59,7 @@
     padding-bottom:4px;
 }
 
-#content {
+.content {
     background-color: white;
     width: 70%;
     margin-left: 200px;
@@ -90,4 +92,37 @@
 .image{
     margin-left: 110px;
     width:30px;
+}
+
+.player{
+    padding:0;
+    margin:0;
+    display:block;
+    border: 1px solid #808080;
+    word-wrap: normal;
+    width:128px;
+    text-align:center;
+    float:left;
+    padding-right:30px;
+    margin-left:50px;
+    margin-top: -27px;
+    padding-left:30px;
+    padding-top:20px;
+    background-color: rgba(255,255,255,0.7);
+}
+.player-name{
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration:none;
+    color: #0041c6;
+    text-shadow: red 0 0 2px;
+}
+
+.player-avatar{
+    padding:0;
+    margin:0;
+    width:128px;
+    height:128px;
+    background-color: black;
+    opacity:1;
 }

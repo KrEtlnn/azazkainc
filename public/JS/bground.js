@@ -5,17 +5,17 @@ changeBground();
 changeBground();
 function changeBground(){
 	switch(i){
-        case 0: document.getElementById('bground').style.background = "url(/pics/bground/art1.jpg) no-repeat";
-                document.getElementById('bground').style.backgroundSize = "cover";
-                document.getElementById('bground').style.backgroundPosition = "center";
+        case 0: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art1.jpg) no-repeat";
+                document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
+                document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
 				break;
-        case 1: document.getElementById('bground').style.background = "url(/pics/bground/art2.jpg) no-repeat";
-                document.getElementById('bground').style.backgroundSize = "cover";
-                document.getElementById('bground').style.backgroundPosition = "center";
+        case 1: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art2.jpg) no-repeat";
+                document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
+                document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
                 break;
-        case 2: document.getElementById('bground').style.background = "url(/pics/bground/art3.JPG) no-repeat";
-                document.getElementById('bground').style.backgroundSize = "cover";
-                document.getElementById('bground').style.backgroundPosition = "center";
+        case 2: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art3.JPG) no-repeat";
+                document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
+                document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
                 break;
 	};
 	i+=1;

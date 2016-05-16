@@ -16,6 +16,9 @@ app.get('/', function (req, res) {
 app.get('/info', function (req, res) {
     res.sendfile('public/pages/info/index.html');
 });
+app.get('/members', function (req, res) {
+    res.sendfile('public/pages/members/index.html');
+});
 app.get('/info/kcali.jpg', function (req, res) {
     res.sendfile('public/pages/info/kcali.jpg');
 });
