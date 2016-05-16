@@ -3,7 +3,7 @@
     left:0;
     top:0;
     width: 100%;
-    height: 100%;
+    height:100%;
     background-position: center;
     background-size:cover;
     z-index:-999;
@@ -46,6 +46,7 @@
     padding-right:7px;
     padding-bottom:5px;
     border-left: 4px solid red;
+    font-size: 18px;
 }
 
 .menu-item:hover{
@@ -105,16 +106,16 @@
     float:left;
     padding-right:30px;
     margin-left:50px;
-    margin-top: -27px;
     padding-left:30px;
     padding-top:20px;
+    margin-bottom:50px;
     background-color: rgba(255,255,255,0.7);
 }
 .player-name{
     font-family: Arial;
     font-weight: bold;
     text-decoration:none;
-    color: #0041c6;
+    color: black;
     text-shadow: red 0 0 2px;
 }
 

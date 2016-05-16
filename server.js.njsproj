@@ -198,6 +198,8 @@
     <Folder Include="public\JS\" />
     <Folder Include="public\pages\" />
     <Folder Include="public\pages\info\" />
+    <Folder Include="public\pages\members\" />
+    <Folder Include="public\pages\feedback\" />
     <Folder Include="public\pics\" />
     <Folder Include="public\pics\bground\" />
   </ItemGroup>
@@ -415,9 +417,13 @@
     <Content Include="package.json" />
     <Content Include="Procfile" />
     <Content Include="public\CSS\styles.css" />
+    <Content Include="public\pages\404.html" />
+    <Content Include="public\pages\feedback\thanks.html" />
+    <Content Include="public\pages\feedback\index.html" />
     <Content Include="public\pages\index.html" />
     <Content Include="public\pages\info\index.html" />
     <Content Include="public\pages\info\kcali.jpg" />
+    <Content Include="public\pages\members\index.html" />
     <Content Include="public\pics\bground\art1.jpg" />
     <Content Include="public\pics\bground\art2.jpg" />
     <Content Include="public\pics\bground\art3.jpg" />
