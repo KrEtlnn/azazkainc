@@ -6,6 +6,7 @@ changeBground();
 function changeBground(){
 	switch(i){
         case 0: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art1.jpg)";
+                document.getElementsByClassName('bground')[0].style.backgroundColor = "brown"
                 document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
                 document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
 				break;
