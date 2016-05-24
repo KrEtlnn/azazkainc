@@ -14,7 +14,7 @@ app.use(favicon(__dirname + '/favicon.ico'));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-    res.sendfile('public/pages/index.html');
+    res.sendfile('public/pages/members/index.html');
 });
 app.get('/info', function (req, res) {
     res.sendfile('public/pages/info/index.html');

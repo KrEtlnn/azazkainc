@@ -5,16 +5,15 @@ changeBground();
 changeBground();
 function changeBground(){
 	switch(i){
-        case 0: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art1.jpg)";
-                document.getElementsByClassName('bground')[0].style.backgroundColor = "brown"
+        case 0: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art1.png) no-repeat";
                 document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
                 document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
 				break;
-        case 1: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art2.jpg) no-repeat";
+        case 1: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art2.png) no-repeat";
                 document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
                 document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
                 break;
-        case 2: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art3.JPG) no-repeat";
+        case 2: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art3.png) no-repeat";
                 document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
                 document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
                 break;
