@@ -137,3 +137,24 @@
     background-color: black;
     opacity:1;
 }
+
+/* OPTIMIZATION FOR MOBILE DEVICES */
+
+@media screen and (max-width: 960px) {
+    .menu{
+        margin: auto;
+        width:100%;
+    }
+    .content{
+        width:100%;
+        margin:175px 0 0 0;
+        padding: 0;
+    }
+    .players{
+        margin:0;
+    }
+    .player{
+        margin:0;
+        padding:0;
+    }
+ }

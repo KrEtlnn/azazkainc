@@ -428,7 +428,6 @@
     <Content Include="public\pages\feedback\index.html" />
     <Content Include="public\pages\index.html" />
     <Content Include="public\pages\info\index.html" />
-    <Content Include="public\pages\info\kcali.jpg" />
     <Content Include="public\pages\members\index.html" />
     <Content Include="public\pages\offices\index.html" />
     <Content Include="public\pics\bground\art1.jpg" />
