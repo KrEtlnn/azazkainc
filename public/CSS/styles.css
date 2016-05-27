@@ -12,7 +12,7 @@
 
 .header {
     text-align: center;
-    background: url(/pics/logo.png);
+    background: url(/pics/logo.png) no-repeat;
     background-position-x:center;
     width: 600px;
     height:36px;
@@ -141,10 +141,16 @@
 /* OPTIMIZATION FOR MOBILE DEVICES */
 
 @media screen and (max-width: 1025px) {
+    .bground{
+        height:100%;
+        width:100%;
+        padding-right:10px;
+        padding-bottom:17px;
+    }
     .header{
         font-size:50px;
-        height:50px;
-        width:800px;
+        height:60px;
+        width:900px;
         background-size: 850px;
     }
     .menu{
