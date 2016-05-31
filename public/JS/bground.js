@@ -5,9 +5,10 @@ changeBground();
 changeBground();
 function changeBground(){
 	switch(i){
-        case 0: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art1.png) no-repeat";
-                document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
-                document.getElementsByClassName('bground')[0].style.backgroundPosition = "center";
+        case 0: document.body.style.background = "url(/pics/bground/art1.png) no-repeat";
+                document.body.style.backgroundAttachment = "fixed";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundPosition = "center";
 				break;
         case 1: document.getElementsByClassName('bground')[0].style.background = "url(/pics/bground/art2.png) no-repeat";
                 document.getElementsByClassName('bground')[0].style.backgroundSize = "cover";
