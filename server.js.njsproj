@@ -112,8 +112,9 @@
     <Compile Include="node_modules\serve-favicon\node_modules\fresh\index.js" />
     <Compile Include="node_modules\serve-favicon\node_modules\ms\index.js" />
     <Compile Include="node_modules\serve-favicon\node_modules\parseurl\index.js" />
-    <Compile Include="public\JS\bground.js" />
-    <Compile Include="public\JS\clicks.js" />
+    <Content Include="public\JS\bground.js" />
+    <Content Include="public\JS\clicks.js" />
+    <Content Include="public\JS\menu.js" />
     <Compile Include="router.js" />
     <Compile Include="server.js" />
   </ItemGroup>
@@ -430,6 +431,7 @@
     <Content Include="public\pages\info\index.html" />
     <Content Include="public\pages\members\index.html" />
     <Content Include="public\pages\offices\index.html" />
+    <Content Include="public\pages\offices\map.jpg" />
     <Content Include="public\pics\bground\art1.jpg" />
     <Content Include="public\pics\bground\art2.jpg" />
     <Content Include="public\pics\bground\art3.jpg" />
