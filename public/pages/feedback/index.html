@@ -4,19 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="import" href="../menu.html" />
     <title>Azazka inc. &copy;</title>
 </head>
 <body>
     <h1 class="header"><a class="header-text" href="/">Azazka inc. &copy;</a> - <i>отзыв</i></h1>
-    <ul class="menu">
-        <li style="text-align: center; background-color: #c7c7c7; border-bottom: 1px solid #808080; border-left: 4px solid blue;"><b>МЕНЮ</b></li>
-        <li class="menu-item" onclick="infoClick()">Инфо</li>
-        <li class="menu-item" onclick="membersClick()">Состав</li>
-        <li class="menu-item" onclick="commandersClick()">Боссы</li>
-        <li class="menu-item" onclick="officesClick()">Офисы</li>
-        <li class="menu-item" onclick="feedbackClick()">Оставить отзыв</li>
-    </ul>
-
+    <span class="menu-end"></span>
     <div class="content">
         <form style="text-align:center;" action="/feedback" method="post">
             <p style="margin-right:37px;">Ваше имя: <input type="text" name="username" required/></p>
@@ -28,5 +21,6 @@
 
     <script src="../JS/bground.js"></script>
     <script src="../JS/clicks.js"></script>
+    <script src="../JS/menu.js"></script>
 </body>
 </html>

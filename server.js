@@ -22,6 +22,9 @@ app.get('/info', function (req, res) {
 app.get('/members', function (req, res) {
     res.sendfile('public/pages/members/index.html');
 });
+app.get('/posts', function (req, res) {
+    res.sendfile('public/pages/posts/index.html');
+});
 app.get('/commanders', function (req, res) {
     res.sendfile('public/pages/commanders/index.html');
 });
@@ -45,6 +48,9 @@ app.get('/public/pages/feedback/download/feedback.txt', function (req, res) {
 });
 app.get('/map.jpg', function (req, res) {
     res.sendfile('public/pages/offices/map.jpg');
+});
+app.get('/default', function (req, res) {
+    res.sendfile('public/pages/index.html');
 });
 
 app.post('/feedback', function (req, res){

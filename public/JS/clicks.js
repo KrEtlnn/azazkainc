@@ -4,6 +4,9 @@
 function membersClick(){
     window.location = '/members';
 };
+function postsClick() {
+    window.location = '/posts'
+}
 function commandersClick(){
     window.location = '/commanders';
 };

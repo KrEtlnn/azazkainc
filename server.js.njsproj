@@ -30,6 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="jquery.js" />
     <Compile Include="node_modules\express\index.js" />
     <Compile Include="node_modules\express\lib\application.js" />
     <Compile Include="node_modules\express\lib\express.js" />
@@ -112,6 +113,7 @@
     <Compile Include="node_modules\serve-favicon\node_modules\fresh\index.js" />
     <Compile Include="node_modules\serve-favicon\node_modules\ms\index.js" />
     <Compile Include="node_modules\serve-favicon\node_modules\parseurl\index.js" />
+    <Content Include="public\menu.html" />
     <Content Include="public\JS\bground.js" />
     <Content Include="public\JS\clicks.js" />
     <Content Include="public\JS\menu.js" />
@@ -203,6 +205,7 @@
     <Folder Include="public\pages\members\" />
     <Folder Include="public\pages\feedback\" />
     <Folder Include="public\pages\commanders\" />
+    <Folder Include="public\pages\posts\" />
     <Folder Include="public\pages\offices\" />
     <Folder Include="public\pics\" />
     <Folder Include="public\pics\bground\" />
@@ -432,6 +435,7 @@
     <Content Include="public\pages\members\index.html" />
     <Content Include="public\pages\offices\index.html" />
     <Content Include="public\pages\offices\map.jpg" />
+    <Content Include="public\pages\posts\index.html" />
     <Content Include="public\pics\bground\art1.jpg" />
     <Content Include="public\pics\bground\art2.jpg" />
     <Content Include="public\pics\bground\art3.jpg" />
