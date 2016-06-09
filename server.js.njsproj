@@ -204,7 +204,6 @@
     <Folder Include="public\pages\info\" />
     <Folder Include="public\pages\members\" />
     <Folder Include="public\pages\feedback\" />
-    <Folder Include="public\pages\commanders\" />
     <Folder Include="public\pages\posts\" />
     <Folder Include="public\pages\offices\" />
     <Folder Include="public\pics\" />
@@ -425,7 +424,6 @@
     <Content Include="Procfile" />
     <Content Include="public\CSS\styles.css" />
     <Content Include="public\pages\404.html" />
-    <Content Include="public\pages\commanders\index.html" />
     <Content Include="public\pages\feedback\download\feedback.txt" />
     <Content Include="public\pages\feedback\download\index.html" />
     <Content Include="public\pages\feedback\thanks.html" />

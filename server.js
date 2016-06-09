@@ -25,9 +25,6 @@ app.get('/members', function (req, res) {
 app.get('/posts', function (req, res) {
     res.sendfile('public/pages/posts/index.html');
 });
-app.get('/commanders', function (req, res) {
-    res.sendfile('public/pages/commanders/index.html');
-});
 app.get('/offices', function (req, res) {
     res.sendfile('public/pages/offices/index.html');
 });
